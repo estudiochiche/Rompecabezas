@@ -1,0 +1,122 @@
+body {
+  background-image: url(../images/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto Condensed', sans-serif;
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+
+ul {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 300;
+  color:white;
+  padding-left: 0;
+}
+
+h2{
+  font-weight: 500;
+}
+
+li {
+  padding: 5px 0;
+  animation: fadein 5s;
+}
+
+li::before {
+  content: "• ";
+  color: rgb(255, 255, 255);
+}
+
+.col-40 h1 {
+  font-size: 40px;
+  font-style: italic;
+  line-height: 38px;
+  color:rgb(254, 216, 28);
+}
+
+.col-40 h2 {
+  font-size: 18px;
+  font-style: italic;
+  color: rgb(254, 216, 28);
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+}
+.col-40 {
+  padding: 20px;
+  padding-right: 20px; 
+  width: 50%;
+}
+
+.col-60 {
+  padding: 20px;
+  width: 50%;
+}
+
+#juego {
+  animation: fadein 2s;
+  padding: 10px;
+  height: 500px;
+  width: 500px;
+}
+
+.piezasPuzzle {
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  float: left;
+  height: 33.33333%; 
+  width: 33.33333%;
+ }
+
+
+#ultimo-mov{
+  width: 200px;
+
+}
+
+#ultimo-mov h2 {
+  font-size: 18px;
+  font-style: italic;
+  color: rgb(254, 216, 28);
+}
+
+#flecha{
+  font-size: 40px;
+  color: white;
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+#juego div {
+  text-align: center;
+  animation: fadein 2s;
+}
+
+#footer{
+  padding-top: 40px;
+  float: right;
+
+}
+
+#footer h2 {
+  color: rgb(254, 216, 28);
+  font-size: 12px;
+  font-weight: 300;
+  text-align: right;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
